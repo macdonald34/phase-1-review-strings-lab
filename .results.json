@@ -2,25 +2,25 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 8,
+    "passes": 9,
     "pending": 0,
-    "failures": 2,
-    "start": "2023-09-20T13:50:59.864Z",
-    "end": "2023-09-20T13:51:00.191Z",
-    "duration": 327
+    "failures": 1,
+    "start": "2023-12-12T18:31:21.077Z",
+    "end": "2023-12-12T18:31:21.967Z",
+    "duration": 890
   },
   "tests": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -41,13 +41,13 @@
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'WELCOME TO FLATBOOK.toUpperCase();!' to contain 'WELCOME TO FLATBOOK, '",
+        "message": "expected 'WELCOME TO FLATBOOK,MACDONALD MUHAVI, !' to contain 'WELCOME TO FLATBOOK, '",
         "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK.toUpperCase();!",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK.toUpperCase();!' to contain 'WELCOME TO FLATBOOK, '\n    at Context.<anonymous> (test/indexTest.js:25:45)\n    at processImmediate (internal/timers.js:461:21)"
+        "actual": "WELCOME TO FLATBOOK,MACDONALD MUHAVI, !",
+        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK,MACDONALD MUHAVI, !' to contain 'WELCOME TO FLATBOOK, '\n    at Context.<anonymous> (test/indexTest.js:25:45)\n    at process.processImmediate (node:internal/timers:478:21)"
       }
     },
     {
@@ -55,12 +55,7 @@
       "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'WELCOME TO FLATBOOK.toUpperCase();!' to contain 'MACDONALD MUHAVI'",
-        "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK.toUpperCase();!",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK.toUpperCase();!' to contain 'MACDONALD MUHAVI'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (internal/timers.js:461:21)"
-      }
+      "err": {}
     },
     {
       "title": "ends with an exclamation point",
@@ -79,7 +74,7 @@
     {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -96,25 +91,13 @@
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'WELCOME TO FLATBOOK.toUpperCase();!' to contain 'WELCOME TO FLATBOOK, '",
+        "message": "expected 'WELCOME TO FLATBOOK,MACDONALD MUHAVI, !' to contain 'WELCOME TO FLATBOOK, '",
         "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK.toUpperCase();!",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK.toUpperCase();!' to contain 'WELCOME TO FLATBOOK, '\n    at Context.<anonymous> (test/indexTest.js:25:45)\n    at processImmediate (internal/timers.js:461:21)"
-      }
-    },
-    {
-      "title": "contains the value of the 'currentUser' variable",
-      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'WELCOME TO FLATBOOK.toUpperCase();!' to contain 'MACDONALD MUHAVI'",
-        "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK.toUpperCase();!",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK.toUpperCase();!' to contain 'MACDONALD MUHAVI'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (internal/timers.js:461:21)"
+        "actual": "WELCOME TO FLATBOOK,MACDONALD MUHAVI, !",
+        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK,MACDONALD MUHAVI, !' to contain 'WELCOME TO FLATBOOK, '\n    at Context.<anonymous> (test/indexTest.js:25:45)\n    at process.processImmediate (node:internal/timers:478:21)"
       }
     }
   ],
@@ -122,14 +105,14 @@
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -143,6 +126,13 @@
     {
       "title": "ends with an exclamation point!",
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -164,7 +154,7 @@
     {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
